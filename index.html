@@ -5,72 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles/style.css"
 </head>
 <body>
-    <header>
-        <div>
-            <p>LOGO</p>
-        </div>
-
-        <div>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
-
-        <div>
-            <h1>This Website is Awesome</h1>
-            <p>This website has some subtext that goes here under the main title.
-                It's smaller font and the color is lower contrast</p>
-            <button>Sign Up</button>
+    <header class="dark ">
+        <div class="nav">
+            <div id="logo">
+                <p>LOGO</p>
+            </div>
+    
+            <div class="hero-secondary">
+                <ul>
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
         </div>
         
-        <div>
-            <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero-main">This Website is Awesome</h1>
+                <p class="hero-secondary">This website has some subtext that goes here under the main title.
+                    It's smaller font and the color is lower contrast</p>
+                <button class="btn">Sign Up</button>
+            </div>
+            
+            <div class="right">
+                <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
+            </div>
         </div>
+        
     </header>
 
-    <main>
+    <main class="info">
         <h2>Some Randomn Information</h2>
-        <div>
-            <div>
+        <div class="card-cont">
+            <div class="card">
                 <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
                 <p>item one</p>
             </div>
-            <div>
+            <div class="card">
                 <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
                 <p>item two</p>
             </div>
-            <div>
+            <div class="card">
                 <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
                 <p>item three</p>
             </div>
-            <div>
+            <div class="card">
                 <img src="https://image.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg" alt="Placeholder Image">
                 <p>item four</p>
             </div>
         </div>
     </main>
-    <div>
+
+    <div class="qoute-cont">
         <em>
             This is an inspiring qoute, or a testimonial from a customer. 
             Maybe its's just fillinf up space, or maybe people will actually read it
             Who knows? All I know is that it looks nice
         </em>
-        <p>-Thor, God of THunder</p>
+        <p>-Thor, God of Thunder</p>
     </div>
-    <div>
-        <div>
-            <strong>Call to action! It's time!</strong>
-            <p>Sign up for our product by clicking that button right over there!</p>
+    <div class="sign-up ">
+        <div class="call-cont">
+            <div class="hero-secondary">
+                <strong>Call to action! It's time!</strong>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button class="btn">Sign Up</button>
+            </div>
         </div>
-        <div>
-            <button>Sign Up</button>
-        </div>
+        
     </div>
-    <footer>
+    <footer class="dark footer-section">
         @Anns RV
     </footer>
     
